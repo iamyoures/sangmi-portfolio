@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Nanum Barun Gothic', sans-serif;
@@ -220,7 +224,7 @@ body {
         align-items: center;
         text-align: left;
         gap: 60px;
-        max-width: 1000px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
