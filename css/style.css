@@ -47,7 +47,6 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    /* 스크롤 내려도 고정하려면 */
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -61,7 +60,6 @@ body {
     height: 20px;
     display: inline-flex;
     flex-direction: column;
-    /* 세로로 줄 세 개 배치 */
     justify-content: space-between;
     cursor: pointer;
 }
@@ -69,14 +67,12 @@ body {
 .hamburger span {
     width: 50px;
     height: 2px;
-    /* 줄 두께 */
     background: #FFA725;
 }
 
 .mobile-menu {
     position: fixed;
     top: 70px;
-    /* header 높이 고려 */
     right: -100%;
     width: 150px;
     background-color: rgba(255, 248, 239, 0.5);
@@ -220,7 +216,6 @@ img {
     justify-content: center;
     gap: 5px;
     padding-bottom: 30px;
-    /* 설명 뜨는 공간 확보 */
 }
 
 .skill-item {
@@ -318,9 +313,7 @@ img {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    /* 세로 가운데 */
     justify-content: center;
-    /* 가로 가운데 */
     text-align: center;
     font-size: 14px;
 }
@@ -330,7 +323,6 @@ img {
     transform: scale(1.02);
 }
 
-/* 더보기 누르기 전 숨김 처리 */
 .thumb.hidden {
     display: none;
 }
